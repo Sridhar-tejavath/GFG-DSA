@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimize-string-value1010/1">Minimum String Value After K Removals</a></h2><h3>Difficulty Level : Difficulty: Basic</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a string of lowercase alphabets and a number k, the task is to find the&nbsp;minimum <strong>value</strong> of the string after removal of ‘k’ characters. The <strong>value</strong>&nbsp;of a string is defined as the sum of squares of the count of each distinct character.<br>For example,&nbsp;consider the string “geeks”, here frequencies of characters are g -&gt; 1, e -&gt; 2, k -&gt; 1, </span><span style="font-size: 18px;">s -&gt; 1 and value of the string is 1<sup>2 </sup>+ 2<sup>2 </sup>+ 1<sup>2 </sup>+ 1<sup>2</sup> = 7</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>s = "abccc", k = 1
+<strong>Output:</strong> 6
+<strong>Explanation</strong>: Remove one 'c', then frequencies become a -&gt; 1, b -&gt; 1, c -&gt; 2 and the value becomes 1<sup>2 </sup>+ 1<sup>2 </sup>+ 2<sup>2 </sup>= 6</span>
+</pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: s = "aaab", k = 2
+<strong>Output:</strong> 2
+<strong>Explanation</strong>: Remove 2 'a's, then frequencies become a -&gt; 1, b -&gt; 1 and value becomes 1<sup>2 </sup>+ 1<sup>2</sup><sup> </sup>= 2</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ k , |s| ≤ 10<sup>4</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>FactSet</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Strings</code>&nbsp;
