@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/connect-nodes-at-same-level/1">Connect Nodes of Same Levels</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p data-pm-slice="0 0 []">Given a binary tree, connect all nodes at the same level using an additional nextRight pointer for each node.</p>
+<ul>
+<li data-pm-slice="0 0 []">Initially, all nextRight pointers contain garbage values (or null).</li>
+<li data-pm-slice="0 0 []">Your function should set each node’s nextRight pointer to point to its immediate neighbor on the same level. The driver code will print the level-order traversal</li>
+<li data-pm-slice="0 0 []">For the rightmost node of a level, the nextRight would stay null..</li>
+</ul>
+<p><strong>Examples:</strong><span style="font-size: 14pt;"> </span></p>
+<pre><span style="font-size: 14pt;"><strong>Input: </strong>root = [1, 2, 3, 4, 5, N, 6]<strong><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/907899/Web/Other/blobid0_1754890661.webp" width="260" height="180"><br></strong><strong>Output: </strong>[1, #, 2, 3, #, 4, 5, 6, #]
+<strong>Explanation:</strong>The connected tree is:<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/907899/Web/Other/blobid1_1754890683.webp" width="352" height="196"></span></pre>
+<div id="professor_prebid-root"></div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>OYO Rooms</code>&nbsp;<code>Ola Cabs</code>&nbsp;<code>Oracle</code>&nbsp;<code>Adobe</code>&nbsp;<code>Google</code>&nbsp;<code>Boomerang Commerce</code>&nbsp;<code>Xome</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
