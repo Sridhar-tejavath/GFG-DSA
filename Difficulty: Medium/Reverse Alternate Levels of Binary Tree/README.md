@@ -1,0 +1,12 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/reverse-alternate-levels-of-a-perfect-binary-tree/1">Reverse Alternate Levels of Binary Tree</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given the <strong>root </strong>of a binary tree, <strong>reverse </strong>the values of nodes at every <strong>alternate </strong>level from left to right, while keeping the tree structure unchanged. Only the node values may be modified.</span></p>
+<p><span style="font-size: 18px;"><span style="font-size: 18px;"><strong>Note:</strong> The root node is considered to be at level 0. Therefore, values at levels 1, 3, 5, ... are reversed.</span></span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> root[] = [1, 2, 3, 42, 51, 63, 72]
+</span><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929180/Web/Other/blobid3_1780254123.webp" width="180" height="117"> <br><span style="font-size: 18px;"><strong>Output:</strong>
+</span><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929180/Web/Other/blobid0_1780297178.webp" width="180" height="117"> <br><span style="font-size: 18px;"><strong>Explanation: <br></strong>Level 1 contains the nodes 2 and 3, so their values are swapped.
+Levels 0 and 2 remain unchanged.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> root[] = [1, 2, N, 3, 4, 5, N, N, 6]<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929180/Web/Other/blobid0_1780319339.webp" width="194" height="159"><br><strong>Output:</strong><br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/929180/Web/Other/blobid2_1780319409.webp" width="194" height="159"><br><strong>Explanation: <br></strong>Level 1 contains only one node, so reversing it has no visible effect.
+At level 3, the node values are reversed from left to right.
+Levels 0 and 2 remain unchanged.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ number of nodes ≤ 10<sup>5</sup><br>1 ≤ nodes-&gt;data ≤ 10<sup>5</sup><br></span></p>
+<div id="professor_prebid-root"></div></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Hike</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Tree</code>&nbsp;
