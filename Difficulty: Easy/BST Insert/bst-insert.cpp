@@ -15,21 +15,24 @@ class Solution {
   public:
     Node* insert(Node* root, int key) {
         // code  here
-        if(root==NULL) return new Node(key);
+        if(root==NULL){
+            return new Node(key);
+        }
         
         Node *curr=root;
+        
         while(1){
-            if(key<curr->data){
-                if(curr->left!=NULL){
-                    curr=curr->left;
+            if(curr->data > key){
+               if(curr->left!=NULL){
+                  curr=curr->left;
                 }
                 else{
-                    curr->left=new Node(key);
-                    break;
+                   curr->left=new Node(key);
+                   break;
                 }
             }
-            else{
-                if(curr->right!=NULL){
+            else if(curr->data < key){
+                if(curr->right !=NULL){
                     curr=curr->right;
                 }
                 else{
@@ -37,7 +40,11 @@ class Solution {
                     break;
                 }
             }
+            else{
+                break;
+            }
         }
+        
         return root;
     }
 };
